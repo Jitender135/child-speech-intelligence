@@ -1,0 +1,78 @@
+=======================================================
+  Logistic Regression
+=======================================================
+
+--- VAL ---
+              precision    recall  f1-score   support
+
+       child       0.92      1.00      0.96        45
+       adult       0.98      1.00      0.99        45
+       noise       1.00      0.89      0.94        45
+
+    accuracy                           0.96       135
+   macro avg       0.97      0.96      0.96       135
+weighted avg       0.97      0.96      0.96       135
+
+--- TEST ---
+              precision    recall  f1-score   support
+
+       child       0.94      1.00      0.97        45
+       adult       1.00      1.00      1.00        45
+       noise       1.00      0.93      0.97        45
+
+    accuracy                           0.98       135
+   macro avg       0.98      0.98      0.98       135
+weighted avg       0.98      0.98      0.98       135
+
+=======================================================
+  Random Forest
+=======================================================
+
+--- VAL ---
+              precision    recall  f1-score   support
+
+       child       0.98      0.91      0.94        45
+       adult       0.98      0.98      0.98        45
+       noise       0.90      0.96      0.92        45
+
+    accuracy                           0.95       135
+   macro avg       0.95      0.95      0.95       135
+weighted avg       0.95      0.95      0.95       135
+
+--- TEST ---
+              precision    recall  f1-score   support
+
+       child       0.88      0.98      0.93        45
+       adult       0.96      0.96      0.96        45
+       noise       0.97      0.87      0.92        45
+
+    accuracy                           0.93       135
+   macro avg       0.94      0.93      0.93       135
+weighted avg       0.94      0.93      0.93       135
+
+=======================================================
+  MLP Neural Network
+=======================================================
+
+--- VAL ---
+              precision    recall  f1-score   support
+
+       child       0.93      0.96      0.95        45
+       adult       0.96      0.96      0.96        45
+       noise       0.95      0.93      0.94        45
+
+    accuracy                           0.95       135
+   macro avg       0.95      0.95      0.95       135
+weighted avg       0.95      0.95      0.95       135
+
+--- TEST ---
+              precision    recall  f1-score   support
+
+       child       0.93      0.96      0.95        45
+       adult       0.98      0.98      0.98        45
+       noise       0.98      0.96      0.97        45
+
+    accuracy                           0.96       135
+   macro avg       0.96      0.96      0.96       135
+weighted avg       0.96      0.96      0.96       135
+

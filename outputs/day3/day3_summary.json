@@ -1,0 +1,36 @@
+{
+  "task": "child vs adult binary classification",
+  "train_clips_clean": 400,
+  "train_clips_augmented": 1200,
+  "test_clips": 100,
+  "augmentations_used": [
+    "pitch_shift \u00b13 semitones",
+    "speed_perturbation 0.8-1.2x",
+    "noise_injection SNR 10-30dB",
+    "time_shift 0-0.5s"
+  ],
+  "results": {
+    "baseline": {
+      "clean": {
+        "accuracy": 94.0,
+        "f1": 94.0
+      },
+      "noisy": {
+        "accuracy": 50.0,
+        "f1": 33.33
+      }
+    },
+    "augmented": {
+      "clean": {
+        "accuracy": 97.0,
+        "f1": 97.0
+      },
+      "noisy": {
+        "accuracy": 95.0,
+        "f1": 94.99
+      }
+    }
+  },
+  "f1_improvement_on_noisy": 61.65,
+  "key_insight": "Augmentation maintains clean audio performance while improving robustness to real-world noise conditions."
+}

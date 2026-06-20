@@ -1,0 +1,24 @@
+{
+  "data_source": "real",
+  "total_clips": 900,
+  "n_features": 251,
+  "label_dist": {
+    "adult": 300,
+    "noise": 300,
+    "child": 300
+  },
+  "split_sizes": {
+    "train": 630,
+    "val": 135,
+    "test": 135
+  },
+  "datasets_used": {
+    "child": "Zenodo 200495 \u2014 Kennedy et al. 2016 (real children aged ~5)",
+    "adult": "LibriSpeech dev-clean \u2014 Panayotov et al. 2015",
+    "noise": "ESC-50 \u2014 Piczak 2015 (environmental sounds)"
+  },
+  "sample_rate_hz": 16000,
+  "clip_duration_s": 3.0,
+  "n_mfcc": 40,
+  "clips_per_class": 300
+}

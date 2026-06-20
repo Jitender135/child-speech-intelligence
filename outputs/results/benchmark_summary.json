@@ -1,0 +1,27 @@
+{
+  "best_model": "Logistic Regression",
+  "test_results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 97.78,
+      "f1_macro": 97.78,
+      "precision": 97.92,
+      "recall": 97.78
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 93.33,
+      "f1_macro": 93.32,
+      "precision": 93.69,
+      "recall": 93.33
+    },
+    {
+      "model": "MLP Neural Network",
+      "accuracy": 96.3,
+      "f1_macro": 96.3,
+      "precision": 96.33,
+      "recall": 96.3
+    }
+  ],
+  "notes": "StandardScaler applied to all features. Scaler fit on train set only to prevent data leakage."
+}

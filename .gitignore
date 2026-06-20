@@ -1,0 +1,22 @@
+# Data — too large for GitHub (datasets are 1GB+)
+data/raw/
+data/processed/*.npy
+
+# Keep metadata and summary
+!data/processed/dataset_summary.json
+!data/processed/metadata.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
