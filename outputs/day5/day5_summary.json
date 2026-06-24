@@ -1,0 +1,16 @@
+{
+  "test_clips": 100,
+  "errors": 4,
+  "error_rate_pct": 4.0,
+  "f1_before_fix": 96.0,
+  "f1_after_fix": 97.94,
+  "f1_improvement": 1.94,
+  "abstained": 3,
+  "abstain_pct": 3.0,
+  "error_taxonomy": {
+    "other": 2,
+    "high_silence": 1,
+    "pitch_overlap": 1
+  },
+  "key_insight": "Confidence thresholding at 0.80 improves F1 by filtering uncertain predictions. In production, abstained clips would be re-processed with a slower, more accurate model."
+}

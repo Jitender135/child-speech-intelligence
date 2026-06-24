@@ -1,0 +1,5 @@
+clip_id,true_label,pred_label,confidence,error_type,rms_mean,silence_ratio,f0_mean_hz,zcr_mean
+5,child,adult,0.906,other,0.0831,0.0,211.8,0.098
+28,adult,child,0.72,high_silence,0.0629,0.606,100.3,0.0351
+55,child,adult,0.994,pitch_overlap,0.0953,0.0,199.6,0.101
+70,child,adult,0.732,other,0.1111,0.0,414.8,0.1745

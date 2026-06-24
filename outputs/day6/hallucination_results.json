@@ -1,0 +1,42 @@
+{
+  "problem": "Whisper hallucinates on child/noisy speech",
+  "approach": "Meta-classifier using Whisper internals + acoustics",
+  "wer_threshold": 0.3,
+  "dataset_size": 280,
+  "label_dist": {
+    "1": 167,
+    "0": 113
+  },
+  "model_benchmark": {
+    "Logistic Regression": {
+      "accuracy": 74.28571428571429,
+      "f1": 72.46503496503496,
+      "auc": 82.48299319727892
+    },
+    "Random Forest": {
+      "accuracy": 80.0,
+      "f1": 77.33580018501387,
+      "auc": 86.13945578231292
+    },
+    "Gradient Boosting": {
+      "accuracy": 77.14285714285715,
+      "f1": 75.88285960378984,
+      "auc": 81.54761904761905
+    }
+  },
+  "best_model": "Random Forest",
+  "features_used": [
+    "avg_logprob",
+    "no_speech_prob",
+    "compression_ratio",
+    "word_count",
+    "rms_mean",
+    "rms_std",
+    "silence_ratio",
+    "snr_estimate_db",
+    "zcr_mean",
+    "speech_rate_proxy",
+    "centroid_mean"
+  ],
+  "key_finding": "Whisper's avg_logprob and no_speech_prob are strong predictors of hallucination. Combined with SNR estimate and silence ratio, the detector catches most hallucinations before Doro acts on them."
+}

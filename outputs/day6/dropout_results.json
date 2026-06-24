@@ -1,0 +1,38 @@
+{
+  "problem": "No early warning for child disengagement. Dropout is detected after the fact.",
+  "approach": "Sliding window of 4 turns. Per-turn features + trend signals fed to classifier.",
+  "features": [
+    "rms_mean trend",
+    "silence_ratio trend",
+    "speech_duration trend",
+    "f0_mean trend",
+    "zcr trend",
+    "response_gap trend",
+    "energy_slope trend"
+  ],
+  "prediction_horizon": "2-3 turns before dropout",
+  "dataset_size": 2400,
+  "label_dist": {
+    "engaged": 2100,
+    "dropout_imminent": 300
+  },
+  "model_benchmark": {
+    "Logistic Regression": {
+      "accuracy": 99.17,
+      "f1": 98.15,
+      "auc": 99.98
+    },
+    "Random Forest": {
+      "accuracy": 99.5,
+      "f1": 98.86,
+      "auc": 99.95
+    },
+    "Gradient Boosting": {
+      "accuracy": 99.33,
+      "f1": 98.48,
+      "auc": 99.79
+    }
+  },
+  "best_model": "Random Forest",
+  "key_finding": "Energy trend and response gap trend are the strongest predictors. Disengagement is detectable 2-3 turns before a child stops responding \u2014 giving Doro time to intervene."
+}

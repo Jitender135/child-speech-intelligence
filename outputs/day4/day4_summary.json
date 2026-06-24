@@ -1,0 +1,50 @@
+{
+  "conversation_scoring": {
+    "dimensions": [
+      "turn_regularity",
+      "child_engagement",
+      "energy_trend",
+      "silence_score",
+      "balance_score"
+    ],
+    "weights": {
+      "child_engagement": 0.35,
+      "turn_regularity": 0.2,
+      "silence_score": 0.2,
+      "energy_trend": 0.15,
+      "balance_score": 0.1
+    },
+    "good_conversation": {
+      "turn_regularity": 74.3,
+      "child_engagement": 100,
+      "energy_trend": 100,
+      "silence_score": 85.5,
+      "balance_score": 100.0,
+      "overall": 92.0,
+      "avg_gap_ms": 592.6,
+      "child_speech_pct": 50.6
+    },
+    "poor_conversation": {
+      "turn_regularity": 71.9,
+      "child_engagement": 31.3,
+      "energy_trend": 31.4,
+      "silence_score": 24.5,
+      "balance_score": 100.0,
+      "overall": 44.9,
+      "avg_gap_ms": 2980.4,
+      "child_speech_pct": 15.6
+    },
+    "score_gap": 47.1
+  },
+  "latency_benchmark": {
+    "mean_ms": 36.54,
+    "median_ms": 37.82,
+    "p95_ms": 48.74,
+    "p99_ms": 49.75,
+    "min_ms": 21.98,
+    "max_ms": 50.55,
+    "target_ms": 200,
+    "within_target_pct": 100.0
+  },
+  "key_insight": "Scorer separates good/poor conversations by 47.1 points. Inference runs at 36.54ms mean latency \u2014 100.0% within 200ms real-time target."
+}

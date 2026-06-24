@@ -1,0 +1,468 @@
+{
+  "engaged_session": [
+    {
+      "turn": 1,
+      "latency_ms": 1281.81,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "and then you need front, one and...",
+        "trust_score": 0.245,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.808,
+        "no_speech_prob": 0.196,
+        "snr_db": 11.4
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 2,
+      "latency_ms": 656.05,
+      "alert_level": "none",
+      "recommended_action": "continue_lesson",
+      "transcription": {
+        "transcript": "the boy climbed a tree to have a look.",
+        "trust_score": 0.78,
+        "trust_flag": "trust",
+        "avg_logprob": -0.39,
+        "no_speech_prob": 0.015,
+        "snr_db": 25.3
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "All signals normal. Continue current lesson flow."
+    },
+    {
+      "turn": 3,
+      "latency_ms": 589.18,
+      "alert_level": "none",
+      "recommended_action": "continue_lesson",
+      "transcription": {
+        "transcript": "so when he might come back",
+        "trust_score": 0.86,
+        "trust_flag": "trust",
+        "avg_logprob": -0.46,
+        "no_speech_prob": 0.009,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "All signals normal. Continue current lesson flow."
+    },
+    {
+      "turn": 4,
+      "latency_ms": 652.71,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the dog is in front of the loco",
+        "trust_score": 0.11,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.904,
+        "no_speech_prob": 0.063,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 5,
+      "latency_ms": 6885.3,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "aww don't anna die!!",
+        "trust_score": 0.11,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -4.358,
+        "no_speech_prob": 0.186,
+        "snr_db": 8.7
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "increasing",
+        "avg_gap_ms": 512.7
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 6,
+      "latency_ms": 5199.21,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "lickson, of course he's holding the putt.",
+        "trust_score": 0.185,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.803,
+        "no_speech_prob": 0.162,
+        "snr_db": 9.7
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "stable",
+        "avg_gap_ms": 465.2
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 7,
+      "latency_ms": 3395.21,
+      "alert_level": "none",
+      "recommended_action": "continue_lesson",
+      "transcription": {
+        "transcript": "the voice put in his hand over here.",
+        "trust_score": 0.6,
+        "trust_flag": "trust",
+        "avg_logprob": -0.459,
+        "no_speech_prob": 0.115,
+        "snr_db": 9.4
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "rising",
+        "gap_trend": "stable",
+        "avg_gap_ms": 430.8
+      },
+      "doro_instruction": "All signals normal. Continue current lesson flow."
+    },
+    {
+      "turn": 8,
+      "latency_ms": 7078.88,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "but don't get in front of the whole.",
+        "trust_score": 0.395,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.514,
+        "no_speech_prob": 0.137,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "stable",
+        "avg_gap_ms": 344.2
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 9,
+      "latency_ms": 8904.68,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the boy is holding me to his toe cage like he",
+        "trust_score": 0.175,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.947,
+        "no_speech_prob": 0.083,
+        "snr_db": 10.9
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "stable",
+        "avg_gap_ms": 229.2
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 10,
+      "latency_ms": 12424.88,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the window trip?",
+        "trust_score": 0.09,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -3.505,
+        "no_speech_prob": 0.059,
+        "snr_db": 18.8
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "stable",
+        "avg_gap_ms": 221.5
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    }
+  ],
+  "dropout_session": [
+    {
+      "turn": 1,
+      "latency_ms": 1049.9,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "with her butt properly tied.",
+        "trust_score": 0.225,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.991,
+        "no_speech_prob": 0.015,
+        "snr_db": 9.1
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 2,
+      "latency_ms": 1021.78,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "my daughter is looking.",
+        "trust_score": 0.1,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.87,
+        "no_speech_prob": 0.102,
+        "snr_db": 18.2
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 3,
+      "latency_ms": 1150.84,
+      "alert_level": "none",
+      "recommended_action": "continue_lesson",
+      "transcription": {
+        "transcript": "squirrel is coming out of the hole.",
+        "trust_score": 0.84,
+        "trust_flag": "trust",
+        "avg_logprob": -0.529,
+        "no_speech_prob": 0.047,
+        "snr_db": 14.9
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "All signals normal. Continue current lesson flow."
+    },
+    {
+      "turn": 4,
+      "latency_ms": 1055.55,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the faith is important.",
+        "trust_score": 0.225,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.76,
+        "no_speech_prob": 0.092,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "unknown",
+        "gap_trend": "unknown",
+        "avg_gap_ms": 0
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 5,
+      "latency_ms": 7468.8,
+      "alert_level": "none",
+      "recommended_action": "continue_lesson",
+      "transcription": {
+        "transcript": "but he's carrying it away and i don't want in the wife",
+        "trust_score": 0.67,
+        "trust_flag": "trust",
+        "avg_logprob": -0.505,
+        "no_speech_prob": 0.175,
+        "snr_db": 23.6
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "stable",
+        "gap_trend": "stable",
+        "avg_gap_ms": 418.7
+      },
+      "doro_instruction": "All signals normal. Continue current lesson flow."
+    },
+    {
+      "turn": 6,
+      "latency_ms": 12466.89,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "euh, the forkoned escape.",
+        "trust_score": 0.08,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -2.704,
+        "no_speech_prob": 0.08,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.08,
+        "dropout_flag": "continue",
+        "energy_trend": "declining",
+        "gap_trend": "increasing",
+        "avg_gap_ms": 1131.4
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 7,
+      "latency_ms": 7022.51,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the face is in the void.",
+        "trust_score": 0.24,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.769,
+        "no_speech_prob": 0.256,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.965,
+        "dropout_flag": "intervene",
+        "energy_trend": "declining",
+        "gap_trend": "increasing",
+        "avg_gap_ms": 1624.1
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 8,
+      "latency_ms": 7606.12,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "then he's like, happy him.",
+        "trust_score": 0.16,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.815,
+        "no_speech_prob": 0.294,
+        "snr_db": 15.0
+      },
+      "engagement": {
+        "dropout_probability": 0.985,
+        "dropout_flag": "intervene",
+        "energy_trend": "declining",
+        "gap_trend": "increasing",
+        "avg_gap_ms": 2228.5
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 9,
+      "latency_ms": 7011.61,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "the dark is the top of the shade.",
+        "trust_score": 0.49,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.638,
+        "no_speech_prob": 0.197,
+        "snr_db": 12.4
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "declining",
+        "gap_trend": "stable",
+        "avg_gap_ms": 2853.7
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    },
+    {
+      "turn": 10,
+      "latency_ms": 6902.26,
+      "alert_level": "medium",
+      "recommended_action": "ask_child_to_repeat",
+      "transcription": {
+        "transcript": "and the tones down blue.",
+        "trust_score": 0.295,
+        "trust_flag": "repeat_request",
+        "avg_logprob": -0.748,
+        "no_speech_prob": 0.101,
+        "snr_db": 40.0
+      },
+      "engagement": {
+        "dropout_probability": 0.0,
+        "dropout_flag": "continue",
+        "energy_trend": "declining",
+        "gap_trend": "stable",
+        "avg_gap_ms": 2872.4
+      },
+      "doro_instruction": "Child's speech was unclear. Ask them to repeat naturally: 'Sorry, I didn't quite catch that \u2014 can you say it again?'"
+    }
+  ],
+  "single_turn_example": {
+    "turn": 1,
+    "latency_ms": 1113.89,
+    "alert_level": "none",
+    "recommended_action": "continue_lesson",
+    "transcription": {
+      "transcript": "the focus is looking out the jaw.",
+      "trust_score": 0.54,
+      "trust_flag": "trust",
+      "avg_logprob": -0.699,
+      "no_speech_prob": 0.01,
+      "snr_db": 9.0
+    },
+    "engagement": {
+      "dropout_probability": 0.0,
+      "dropout_flag": "continue",
+      "energy_trend": "unknown",
+      "gap_trend": "unknown",
+      "avg_gap_ms": 0
+    },
+    "doro_instruction": "All signals normal. Continue current lesson flow."
+  }
+}
